@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b431dc7-ee17-48d2-aba3-9f6154c7eb0f" name="Changes" comment="message">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/RestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson3/RestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,10 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="branchf" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="80d01a88-e87d-4114-92c0-01feb0a6b453" />
+        <option name="url" value="https://github.com/omaslova1/testBackend.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,9 +58,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/Olya/IdeaProjects/testBackend",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -59,8 +66,8 @@
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+      "directory",
+      "module"
     ]
   }
 }]]></component>
@@ -68,83 +75,80 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lesson5.utils" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Olya\IdeaProjects\testBackend\src\main\java\lesson6\db\mapper" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExampleMain.getPositiveTest">
-    <configuration name="ExampleMain.getAccountInfoWithExternalTitleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CategoriesTest.getCategoryByIdPositiveTest">
+    <configuration name="ExampleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.ExampleMain" />
       <module name="testBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson4" />
-      <option name="MAIN_CLASS_NAME" value="lesson4.ExampleMain" />
-      <option name="METHOD_NAME" value="getAccountInfoWithExternalTitleTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.ExampleTestMain" />
+      <module name="testBackend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoriesTest.getCategoryByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testBackend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson6" />
+      <option name="MAIN_CLASS_NAME" value="lesson6.CategoriesTest" />
+      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleMain.getPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsTest.create_deleteProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson4" />
-      <option name="MAIN_CLASS_NAME" value="lesson4.ExampleMain" />
-      <option name="METHOD_NAME" value="getPositiveTest" />
+      <option name="PACKAGE_NAME" value="lesson6" />
+      <option name="MAIN_CLASS_NAME" value="lesson6.ProductsTest" />
+      <option name="METHOD_NAME" value="create_deleteProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleMain.getRecipeComplexSearchPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsTest.modifyProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson4" />
-      <option name="MAIN_CLASS_NAME" value="lesson4.ExampleMain" />
-      <option name="METHOD_NAME" value="getRecipeComplexSearchPositiveTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleMain.getRecipeСomplexSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testBackend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson4" />
-      <option name="MAIN_CLASS_NAME" value="lesson4.ExampleMain" />
-      <option name="METHOD_NAME" value="getRecipeСomplexSearchTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleMain.getRecipesСomplexSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testBackend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson4" />
-      <option name="MAIN_CLASS_NAME" value="lesson4.ExampleMain" />
-      <option name="METHOD_NAME" value="getRecipesСomplexSearchTest" />
+      <option name="PACKAGE_NAME" value="lesson6" />
+      <option name="MAIN_CLASS_NAME" value="lesson6.ProductsTest" />
+      <option name="METHOD_NAME" value="modifyProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExampleMain.getPositiveTest" />
-        <item itemvalue="JUnit.ExampleMain.getAccountInfoWithExternalTitleTest" />
-        <item itemvalue="JUnit.ExampleMain.getRecipesСomplexSearchTest" />
-        <item itemvalue="JUnit.ExampleMain.getRecipeComplexSearchPositiveTest" />
-        <item itemvalue="JUnit.ExampleMain.getRecipeСomplexSearchTest" />
+        <item itemvalue="JUnit.CategoriesTest.getCategoryByIdPositiveTest" />
+        <item itemvalue="JUnit.ProductsTest.modifyProduct" />
+        <item itemvalue="JUnit.ProductsTest.create_deleteProduct" />
+        <item itemvalue="Application.ExampleMain" />
+        <item itemvalue="Application.ExampleTestMain" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679062606564</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="message">
+      <created>1679572439411</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679572439411</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +202,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson5" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
